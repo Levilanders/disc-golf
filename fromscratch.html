@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Disc Golf</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/mystyles.css"/>
+</head>
+<body>
+<!-- NAV -->
+<nav>
+  <ul>
+    <li><a href="#">Disc Golf</a></li>
+    <li><a href="/index.html">Resume</a></li>
+    <li><a href="app.html">App</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-ring" style="width:300px;height:300px;"></div>
+  <div class="hero-ring" style="width:700px;height:700px;"></div>
+  <div class="hero-ring" style="width:900px;height:900px;"></div>
+  <h1>Disc <em>Golf</em></h1>
+  <p class="hero-sub">Flight · Precision · Nature</p>
+  <div class="hero-divider"></div>
+</div>
+
+<!-- INTRO -->
+<section class="intro-section">
+  <p class="section-label fade-in">The Game</p>
+  <h2 class="section-title fade-in">Disc-<em>over</em> the Game</h2>
+  <div class="split fade-in">
+    <div class="split-text">
+      <p>
+        Disc golf is a flying disc sport played much like traditional golf, where players throw a disc from a tee area toward a target — typically a metal basket with hanging chains — in as few throws as possible. Players choose from different disc types — <strong>drivers</strong> for distance, <strong>mid-ranges</strong> for control, and <strong>putters</strong> for short accurate shots — each engineered with specific flight characteristics to shape the perfect throw. Whether you're a casual weekend player or a competitive enthusiast, disc golf offers a unique blend of athleticism, strategy, and nature that keeps players coming back to the course.
+      </p>
+    </div>
+    <div class="split-image">
+      <img src="/assets/img/discover-disc.jpeg" alt="Man playing disc golf"/>
+    </div>
+  </div>
+</section>
+
+<!-- FLIGHT NUMBERS -->
+<section class="numbers-section">
+  <p class="section-label fade-in">The Numbers</p>
+  <h2 class="section-title fade-in">Reading a <em>Disc</em></h2>
+  <p class="intro-line fade-in">On each disc, these attributes are measured:</p>
+
+  <ol class="numbers-grid" style="list-style:none;">
+    <li class="number-card fade-in">
+      <span class="number-index">1</span>
+      <div class="number-content">
+        <div class="number-name">Speed</div>
+        <ul class="number-bullets">
+          <li>Ranges from 1 to 14 and measures how fast the disc must travel to achieve its intended flight</li>
+          <li>Higher speed discs cut through the air more efficiently but require more arm speed to fly correctly</li>
+          <li>Beginners should start with lower speed discs (4–6) for better control and accuracy</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="number-card fade-in">
+      <span class="number-index">2</span>
+      <div class="number-content">
+        <div class="number-name">Glide</div>
+        <ul class="number-bullets">
+          <li>Ranges from 1 to 7 and describes the disc's ability to maintain lift during flight</li>
+          <li>Higher glide discs stay in the air longer, which can add distance but makes them harder to control in wind</li>
+          <li>Lower glide discs drop faster and are more predictable in windy conditions</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="number-card fade-in">
+      <span class="number-index">3</span>
+      <div class="number-content">
+        <div class="number-name">Turn</div>
+        <ul class="number-bullets">
+          <li>Ranges from +1 to -5 and represents the disc's tendency to turn right during the high-speed portion of flight (for right-handed backhand throws)</li>
+          <li>A rating of -3 to -5 means the disc will turn significantly to the right, making it more understable</li>
+          <li>A rating of 0 or +1 means the disc resists turning and flies straighter or fades early</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="number-card fade-in">
+      <span class="number-index">4</span>
+      <div class="number-content">
+        <div class="number-name">Fade</div>
+        <ul class="number-bullets">
+          <li>Ranges from 0 to 5 and describes how hard the disc hooks left at the end of its flight (for right-handed backhand throws)</li>
+          <li>Higher fade discs finish with a strong left hook, useful for curving around obstacles</li>
+          <li>Lower fade discs finish straighter and are more beginner friendly</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="number-card fade-in">
+      <span class="number-index">5</span>
+      <div class="number-content">
+        <div class="number-name">Stability</div>
+        <ul class="number-bullets">
+          <li>A combined measure derived from turn and fade that summarizes the overall flight tendency of the disc</li>
+          <li>Overstable discs (positive stability) resist turning and fade hard — reliable in wind and for experienced throwers</li>
+          <li>Understable discs (negative stability) turn easily and are great for newer players or specific shot shapes like rollers and turnover shots</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- CHART -->
+<section class="chart-section">
+  <p class="section-label fade-in">Data Viz</p>
+  <h2 class="section-title fade-in">Disc-<em>ecting</em> the Data</h2>
+  <p class="chart-subtitle fade-in">Explore the relationship between disc golf speed and stability.</p>
+  <div class="tableau-wrap fade-in">
+    <div class='tableauPlaceholder' id='viz1776204526041' style='position:relative'>
+      <noscript>
+        <a href='#'><img alt='Disc Golf Speed to Stability' src='https://public.tableau.com/static/images/Di/DiscGolfSpeedtoStability/Sheet1/1_rss.png' style='border:none'/></a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
+        <param name='embed_code_version' value='3'/>
+        <param name='site_root' value=''/>
+        <param name='name' value='DiscGolfSpeedtoStability/Sheet1'/>
+        <param name='tabs' value='no'/>
+        <param name='toolbar' value='yes'/>
+        <param name='static_image' value='https://public.tableau.com/static/images/Di/DiscGolfSpeedtoStability/Sheet1/1.png'/>
+        <param name='animate_transition' value='yes'/>
+        <param name='display_static_image' value='yes'/>
+        <param name='display_spinner' value='yes'/>
+        <param name='display_overlay' value='yes'/>
+        <param name='display_count' value='yes'/>
+        <param name='language' value='en-US'/>
+        <param name='filter' value='publish=yes'/>
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1776204526041');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='1000px';
+      vizElement.style.height='800px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="video-section">
+  <p class="section-label fade-in">On the Course</p>
+  <h2 class="section-title fade-in">Life is a <em>Fairway</em></h2>
+  <div class="video-wrap fade-in">
+    <iframe
+      src="https://www.youtube.com/embed/_vKGDDRXXQc?si=8Ac2lQK_gavW0mwc"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<section class="number-section">
+  <p class="section-label fade-in">More Resources</p>
+  <h2 class="section-title fade-in">Link up with other <em>Disc</em>-ers</h2>
+    <ul class="resources-list fade-in">
+        <li><a href="https://www.pdga.com/">Professional Disc Golf Association</a></li>
+        <li><a href="https://www.discgolfnetwork.com/">Disc Golf Network</a></li>
+        <li><a href="https://www.innovadiscs.com/">Innova Discs</a></li>
+        <li><a href="https://www.discgolfscene.com/">Disc Golf Scene</a></li>
+        <li><a href="https://www.youtube.com/user/Discraft">Discraft YouTube Channel</a></li>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <strong>Disc Golf</strong> &nbsp;·&nbsp; Built by Levi Landers
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
